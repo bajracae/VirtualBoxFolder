@@ -4,6 +4,10 @@
 HOST1=192.168.1.101
 HOST2=192.168.1.102
 
+# Install important packages
+apk add ansible
+apk add sshpass
+
 # Generate an ssh key
 ssh-keygen -t rsa
 
