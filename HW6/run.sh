@@ -1,12 +1,13 @@
 #!/bin/ash
 
 # IP Addresses (NOTE: CHANGE THESE TO YOUR HOSTS' IP ADDRESSES)
-HOST1=192.168.1.101
-HOST2=192.168.1.102
+HOST1=192.168.1.108
+HOST2=192.168.1.109
 
 # Install important packages
 apk add ansible
 apk add sshpass
+apk add curl
 
 # Generate an ssh key
 ssh-keygen -t rsa
